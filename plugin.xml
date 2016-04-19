@@ -23,15 +23,15 @@
             </feature>
         </config-file>
  
-				<config-file target="AndroidManifest.xml" parent="/manifest/application">
-		      <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale" android:name="it.mobimentum.phonegapspinnerplugin.ProgressActivity"
+        <config-file target="AndroidManifest.xml" parent="/manifest/application">
+            <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale" android:name="it.mobimentum.phonegapspinnerplugin.ProgressActivity"
 		          android:theme="@android:style/Theme.Translucent.NoTitleBar" android:launchMode="singleInstance">
-		          <intent-filter>
-                      <action android:name="it.mobimentum.phonegapspinnerplugin.ProgressActivity" />
-                      <category android:name="android.intent.category.DEFAULT" />
-		          </intent-filter>
-		      </activity>
-				</config-file>
+                <intent-filter>
+                    <action android:name="it.mobimentum.phonegapspinnerplugin.ProgressActivity" />
+                    <category android:name="android.intent.category.DEFAULT" />
+                </intent-filter>
+            </activity>
+        </config-file>
  
         <source-file src="src/it/mobimentum/phonegapspinnerplugin/SpinnerPlugin.java" target-dir="src/it/mobimentum/phonegapspinnerplugin/" />
         <source-file src="src/it/mobimentum/phonegapspinnerplugin/ProgressActivity.java" target-dir="src/it/mobimentum/phonegapspinnerplugin/" />
