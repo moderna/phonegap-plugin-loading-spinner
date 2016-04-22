@@ -67,7 +67,7 @@ public class SpinnerPlugin extends CordovaPlugin {
 		if (hideTimeout != null) {
 			new Handler().postDelayed(new Runnable() {
 				@Override
-				public void run() { hide(context); }
+				public void run() { hide(context); isShown = false; }
 			}, hideTimeout*1000);
 		}
 		
