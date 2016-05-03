@@ -65,8 +65,8 @@
         if( orientation == UIInterfaceOrientationLandscapeLeft || orientation == UIInterfaceOrientationLandscapeRight )
         {
             // landscape
-            frame.size.width = self.viewController.view.frame.size.height;
-            frame.size.height = self.viewController.view.frame.size.width;
+            frame.size.width = self.viewController.view.frame.size.width;
+            frame.size.height = self.viewController.view.frame.size.height;
         }
         else
         {

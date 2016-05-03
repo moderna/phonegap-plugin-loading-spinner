@@ -1,7 +1,7 @@
 phonegap-plugin-loading-spinner
 ===============================
 
-PhoneGap 3 plugin to show a loading spinner with optional dark overlay.
+Cordova 6.1.1 plugin to show a loading spinner with optional dark overlay for android (>= 4.1) and ios (>= 6.0)
 
 ![screenshot](https://raw.github.com/mobimentum/phonegap-plugin-loading-spinner/master/screenshot.png "Screenshot")
 
